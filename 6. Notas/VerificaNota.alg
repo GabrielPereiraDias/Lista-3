@@ -1,19 +1,25 @@
 Algoritmo "VerificaNota"
 
 Var
-   nota : real
+   media, n1, n2, n3 : real
 
 Inicio
-   Escreva("Digite a sua nota: ")
-   Leia(nota)
+   Escreva("Digite a sua primeira nota: ")
+   Leia(n1)
+   escreva("Digite a sua segunda nota: ")
+   leia(n2)
+   escreva ("Digite sua nota da terceira etapa: ")
+   leia(n3)
 
-   Se nota >= 7 Entao
+   media<- (n1 + n2 + n3) / 3
+
+   Se media >= 7 Entao
       Escreva("Passou!")
    Senao
-      Se nota <= 4 Entao
+      Se media <= 4 Entao
          Escreva("Reprovado")
       Senao
-         Escreva("Recuperação")
+         Escreva("RecuperaÃ§Ã£o")
       FimSe
    FimSe
 Fimalgoritmo
