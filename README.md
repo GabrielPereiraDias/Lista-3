@@ -1,4 +1,4 @@
-<img scr= "https://img.shields.io/badge/Status do projeto-Finalizado-brightgreen?style=for-the-badge">
+<img scr= "https://img.shields.io/badge/Status-Finalizado-brightgreen?style=for-the-badge">
 
 # 🚀 Exercícios de Lógica de Programação (Visualg)
 
