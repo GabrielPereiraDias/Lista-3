@@ -1,4 +1,4 @@
-https://img.shields.io/badge/build-passing-brightgreen?style=for-the-badge
+<https://img.shields.io/badge/build-passing-brightgreen?style=for-the-badge>
 
 # 🚀 Exercícios de Lógica de Programação (Visualg)
 
