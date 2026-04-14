@@ -1,3 +1,5 @@
+<img scr= "https://img.shields.io/badge/Status do projeto-Finalizado-darkblue?style=for-the-badge">
+
 # 🚀 Exercícios de Lógica de Programação (Visualg)
 
 Este repositório contém uma coleção de algoritmos básicos desenvolvidos em **Visualg** (.alg) para praticar fundamentos de programação, como variáveis, operadores matemáticos e estruturas condicionais (SE/ENTÃO/SENÃO).
