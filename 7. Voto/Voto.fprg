@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-14 08:23:09 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwODM2OzIwMjYtMDQtMTQ7IjA4OjA4OjA3ICI7Mjg2NQ=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwODM2OzIwMjYtMDQtMTQ7IjA4OjIzOjA5ICI7MTsyOTcy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="idade" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite a sua idade: &quot;" newline="True"/>
+            <input variable="idade"/>
+            <if expression="idade &gt;= 70">
+                <then>
+                    <output expression="&quot;Seu voto &#233; opcional&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="idade &gt;= 18">
+                        <then>
+                            <output expression="&quot;Seu voto &#233; obrigat&#243;rio.&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="idade &lt; 18">
+                                <then>
+                                    <output expression="&quot;Seu voto &#233; opcional.&quot;" newline="True"/>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
